@@ -2,3 +2,7 @@
 2024-02-28 12:17:36.4307 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
 2024-02-28 12:17:36.4307 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
 2024-02-28 12:17:36.4425 Info Configuration initialized.
+2024-03-07 14:33:38.1651 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-07 14:33:38.2147 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-07 14:33:38.2147 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-07 14:33:38.2277 Info Configuration initialized.
