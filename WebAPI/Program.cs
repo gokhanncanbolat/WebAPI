@@ -1,8 +1,10 @@
+using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using Presentation.ActionFilters;
 using Repositories.EFCore;
+using Services;
 using Services.Contracts;
 using WebAPI.Extension;
 
@@ -20,10 +22,13 @@ internal class Program
         {
             config.RespectBrowserAcceptHeader = true;
             config.ReturnHttpNotAcceptable = true;
+            config.CacheProfiles.Add("5 mins", new CacheProfile() { Duration = 300 });
         })
-            .AddCustomCsvFormatter()
-            .AddXmlDataContractSerializerFormatters()
-            .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
+        .AddXmlDataContractSerializerFormatters()
+        .AddCustomCsvFormatter()
+        .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
+        //.AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Error);
+
 
         builder.Services.Configure<ApiBehaviorOptions>(options =>
         {
@@ -32,9 +37,9 @@ internal class Program
 
         //builder.Services.AddScoped<ValidationFilterAttribute>();  // Ioc kaydi
 
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+        builder.Services.ConfigureSwagger();
 
         builder.Services.ConfigureSqlContext(builder.Configuration);
         builder.Services.ConfigureRepositoryManager();
@@ -44,6 +49,22 @@ internal class Program
         builder.Services.ConfigureActionFilters();
 
         builder.Services.ConfigureCors();
+        builder.Services.ConfigureDataShaper();
+        builder.Services.AddCustomMediaTypes();
+        builder.Services.AddScoped<IBookLinks, BookLinks>();
+        builder.Services.ConfigureVersioning();
+        builder.Services.ConfigureResponseCaching();
+        builder.Services.ConfigureHttpCacheHeaders();
+        builder.Services.AddMemoryCache();
+        builder.Services.ConfigureRateLimitOptions();
+        builder.Services.AddHttpContextAccessor();
+
+        builder.Services.ConfigureIdentity();
+        builder.Services.ConfigureJwt(builder.Configuration);
+
+        builder.Services.RegisterRepositories();
+        builder.Services.RegisterServices();
+
 
         var app = builder.Build();
 
@@ -54,7 +75,12 @@ internal class Program
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
-            app.UseSwaggerUI();
+            app.UseSwaggerUI(s =>
+            {
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Btk Akademi v1");
+                s.SwaggerEndpoint("/swagger/v2/swagger.json", "Btk Akademi v2");
+
+            });
         }
 
         if (app.Environment.IsProduction())
@@ -64,8 +90,12 @@ internal class Program
 
         app.UseHttpsRedirection();
 
+        app.UseIpRateLimiting();
         app.UseCors("CorsPolicy");
+        app.UseResponseCaching();
+        app.UseHttpCacheHeaders();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.MapControllers();

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositories<T>
+    public interface IRepositoryBase<T>
     {
         // CRUD
         IQueryable<T> FindAll(bool trackChanges);

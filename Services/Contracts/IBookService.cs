@@ -1,8 +1,10 @@
 ﻿using Entities.DataTransferObjects;
+using Entities.LinkModels;
 using Entities.Models;
 using Entities.RequestFeatures;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +13,7 @@ namespace Services.Contracts
 {
     public interface IBookService
     {
-        Task<(IEnumerable<BookDto> books, MetaData metaData)> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges);
+        Task<(LinkResponse linkResponse, MetaData metaData)> GetAllBooksAsync(LinkParameters linkParameters, bool trackChanges);
 
         Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges);
 
@@ -23,6 +25,8 @@ namespace Services.Contracts
         Task<(BookDtoForUpdate bookDtoForUpdate, Book book)> GetOneBookForPatchAsycn(int id, bool trackChanges);
 
         Task SaveChangesForPatchAsync(BookDtoForUpdate bookDtoForUpdate, Book book);
+        Task<List<Book>> GetAllBooksAsync(bool trackChanges);
+        Task<IEnumerable<Book>> GetAllBooksWithDetailsAsync(bool trackChanges);
 
     }
 }

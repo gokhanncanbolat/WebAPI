@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.EFCore
 {
-    public abstract class RepositoryBase<T> : IRepositories<T> where T : class
+    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
         protected readonly RepositoryContext _context;
         protected RepositoryBase(RepositoryContext context)
@@ -20,6 +20,8 @@ namespace Repositories.EFCore
         public void Create(T entitiy) => _context.Set<T>().Add(entitiy);
 
         public void Delete(T entitiy) => _context.Set<T>().Remove(entitiy);
+
+        public void Update(T entitiy) => _context.Set<T>().Update(entitiy);
 
         public IQueryable<T> FindAll(bool trackChanges) =>
             !trackChanges ?
@@ -32,6 +34,5 @@ namespace Repositories.EFCore
             _context.Set<T>().Where(expression);
 
 
-        public void Update(T entitiy) => _context.Set<T>().Update(entitiy);
     }
 }

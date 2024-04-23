@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IBookRepository : IRepositories<Book>
+    public interface IBookRepository : IRepositoryBase<Book>
     {
         Task<PagedList<Book>> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges);
         Task<Book> GetOneBookByIdAsync(int id, bool trackChanges);
@@ -16,6 +16,8 @@ namespace Repositories.Contracts
         void CreateOneBook(Book book);
         void UpdateOneBook(Book book);
         void DeleteOneBook(Book book);
+        Task<List<Book>> GetAllBooksAsync(bool trackChanges);
 
+        Task<IEnumerable<Book>> GetAllBooksWithDetailsAsync(bool trackChanges);
     }
 }

@@ -6,3 +6,141 @@
 2024-03-07 14:33:38.2147 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
 2024-03-07 14:33:38.2147 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
 2024-03-07 14:33:38.2277 Info Configuration initialized.
+2024-03-18 18:23:48.4614 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-18 18:23:48.5140 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-18 18:23:48.5204 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-18 18:23:48.5204 Info Configuration initialized.
+2024-03-18 18:26:57.8489 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-18 18:26:57.8642 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-18 18:26:57.8642 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-18 18:26:57.8769 Info Configuration initialized.
+2024-03-18 19:07:39.8494 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-18 19:07:39.8643 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-18 19:07:39.8643 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-18 19:07:39.8765 Info Configuration initialized.
+2024-03-18 19:09:29.5998 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-18 19:09:29.6182 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-18 19:09:29.6182 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-18 19:09:29.6324 Info Configuration initialized.
+2024-03-18 22:03:33.1769 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-18 22:03:33.1915 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-18 22:03:33.1915 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-18 22:03:33.2040 Info Configuration initialized.
+2024-03-18 22:06:06.3748 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-18 22:06:06.3897 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-18 22:06:06.3968 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-18 22:06:06.3968 Info Configuration initialized.
+2024-03-19 11:14:15.3478 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-19 11:14:15.3660 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-19 11:14:15.3660 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-19 11:14:15.3805 Info Configuration initialized.
+2024-03-19 11:40:57.5620 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-19 11:40:57.6082 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-19 11:40:57.6153 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-19 11:40:57.6153 Info Configuration initialized.
+2024-03-19 13:07:56.8167 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-19 13:07:56.8654 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-19 13:07:56.8654 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-19 13:07:56.8787 Info Configuration initialized.
+2024-03-19 13:20:30.5245 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-19 13:20:30.5418 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-19 13:20:30.5485 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-19 13:20:30.5485 Info Configuration initialized.
+2024-03-19 14:16:22.2363 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-19 14:16:22.3026 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-19 14:16:22.3026 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-19 14:16:22.3160 Info Configuration initialized.
+2024-03-19 14:50:26.9123 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-19 14:50:26.9276 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-19 14:50:26.9276 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-03-19 14:50:26.9400 Info Configuration initialized.
+2024-04-02 13:06:47.4536 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-02 13:06:47.5014 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-02 13:06:47.5014 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-02 13:06:47.5143 Info Configuration initialized.
+2024-04-02 14:13:44.2758 Info AppDomain Shutting down. LogFactory closing...
+2024-04-02 14:13:44.2890 Info LogFactory has been closed.
+2024-04-15 08:22:20.2510 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 08:22:20.3013 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 08:22:20.3081 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 08:22:20.3081 Info Configuration initialized.
+2024-04-15 10:29:38.7820 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 10:29:38.7979 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 10:29:38.8049 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 10:29:38.8049 Info Configuration initialized.
+2024-04-15 11:19:40.1148 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 11:19:40.1330 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 11:19:40.1330 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 11:19:40.1477 Info Configuration initialized.
+2024-04-15 11:21:38.3987 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 11:21:38.4215 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 11:21:38.4302 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 11:21:38.4302 Info Configuration initialized.
+2024-04-15 11:54:08.4819 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 11:54:08.5329 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 11:54:08.5329 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 11:54:08.5463 Info Configuration initialized.
+2024-04-15 12:10:27.9358 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 12:10:27.9519 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 12:10:27.9519 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 12:10:27.9519 Info Configuration initialized.
+2024-04-15 12:15:21.0638 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 12:15:21.0804 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 12:15:21.0804 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 12:15:21.0945 Info Configuration initialized.
+2024-04-15 13:15:57.8936 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 13:15:57.9091 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 13:15:57.9091 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 13:15:57.9238 Info Configuration initialized.
+2024-04-15 13:22:54.7522 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 13:22:54.7688 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 13:22:54.7688 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 13:22:54.7834 Info Configuration initialized.
+2024-04-15 14:40:27.2862 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-15 14:40:27.2991 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-15 14:40:27.2991 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-15 14:40:27.3145 Info Configuration initialized.
+2024-04-19 14:48:09.0707 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 14:48:09.0999 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 14:48:09.0999 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 14:48:09.1152 Info Configuration initialized.
+2024-04-19 14:48:56.8842 Info AppDomain Shutting down. LogFactory closing...
+2024-04-19 14:48:56.8955 Info LogFactory has been closed.
+2024-04-19 14:58:25.6809 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 14:58:25.6982 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 14:58:25.7054 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 14:58:25.7054 Info Configuration initialized.
+2024-04-19 15:17:51.0876 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 15:17:51.1021 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 15:17:51.1021 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 15:17:51.1157 Info Configuration initialized.
+2024-04-19 15:20:48.3109 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 15:20:48.3216 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 15:20:48.3216 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 15:20:48.3364 Info Configuration initialized.
+2024-04-19 15:30:16.4729 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 15:30:16.4729 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 15:30:16.4925 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 15:30:16.4925 Info Configuration initialized.
+2024-04-19 16:02:48.8645 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 16:02:48.8645 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 16:02:48.8832 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 16:02:48.8832 Info Configuration initialized.
+2024-04-19 20:06:02.6211 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 20:06:02.6471 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 20:06:02.6471 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 20:06:02.6624 Info Configuration initialized.
+2024-04-19 20:11:03.4303 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 20:11:03.4417 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 20:11:03.4417 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 20:11:03.4573 Info Configuration initialized.
+2024-04-19 20:32:33.4203 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-19 20:32:33.4362 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-19 20:32:33.4430 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-19 20:32:33.4430 Info Configuration initialized.
+2024-04-19 20:36:38.1412 Info AppDomain Shutting down. LogFactory closing...
+2024-04-19 20:36:38.1538 Info LogFactory has been closed.
+2024-04-23 18:25:17.9839 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-23 18:25:18.0309 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-23 18:25:18.0309 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\gokha\source\repos\WebAPI\WebAPI\bin\Debug\net8.0\NLog.config
+2024-04-23 18:25:18.0309 Info Configuration initialized.
